@@ -1,0 +1,137 @@
+body {
+    direction: rtl;
+    text-align: right;
+    font: 14px 'Cairo', sans-serif;
+}
+
+/*@font-face {*/
+/*    font-family: 'Fairuz_Normal';*/
+/*    src: url('../fonts/Fairuz-Normal.otf');*/
+/*}*/
+
+@font-face {
+    font-family: 'Cairo';
+    src: url('../fonts/Cairo-Light.ttf');
+    src: url('../fonts/Cairo-Regular.ttf'),
+    url('../fonts/Cairo-Bold.ttf'),
+    url('../fonts/JF-Flat-regular.svg#JF-Flat-regular') format('svg');
+
+    /*font-family: 'Fairuz';*/
+    /*src: url('../fonts/Fairuz-Black.otf');*/
+    /*src: url('../fonts/Fairuz-Normal.otf');*/
+    /*src: url('../fonts/Fairuz-Bold.otf'),*/
+    /*url('../fonts/Fairuz-Black.otf'),*/
+    /*url('../fonts/JF-Flat-regular.svg#JF-Flat-regular') format('svg');*/
+}
+
+.selector i{
+    left: 5px;
+}
+
+#nav-icon3 {
+    float: left;
+}
+
+.bell {
+    right: 0;
+}
+
+.links_page:before {
+    right: 0;
+}
+
+.links_page {
+    padding-right: 20px;
+}
+
+.under_footer ul li:first-child {
+    padding-right: 0px;
+}
+
+.son_block {
+    border-left: 1px solid #e5e5e5;
+}
+
+.section_up_item ul li {
+    border-left: 1px solid #e5e5e5;
+}
+
+.section_up_item ul li:first-child {
+    padding-right: 0;
+}
+
+.div_click_fun {
+    left: 35px;
+}
+
+.new{
+    right: 15px;
+}
+
+.head_select{
+    right: 10px;
+}
+
+.add_adv .selector i{
+    left: 15px;
+}
+
+.foot_btn {
+    justify-content: flex-end;
+}
+
+.user_info .btn_button{
+    left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Screen */
+
+@media screen and (max-width: 990px){
+
+
+}
+
+@media screen and (max-width: 767px) {
+
+    .overlay{
+        left: 0;
+        transform: translateX(-100%);
+    }
+
+    .Nav_Mobile{
+        right: 0;
+        transform: translateX(100%);
+    }
+
+    .section_filter{
+        right: 0;
+        left: auto;
+        transform: translateX(150%);
+    }
+
+    .link_header ul li {
+        text-align: right;
+    }
+
+}
